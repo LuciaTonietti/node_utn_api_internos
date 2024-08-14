@@ -1,0 +1,20 @@
+{
+  "name": "node_utn_tp_colectivos",
+  "version": "1.0.0",
+  "description": "Este es el trabajo integrador para el curso de NodeJS en UTN, se basa en una api usando express que permite realizar CRUD",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "node --watch ./index.js"
+  },
+  "author": "LuciaTonietti",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.5.3"
+  }
+}
